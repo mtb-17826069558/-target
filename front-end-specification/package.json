@@ -1,0 +1,21 @@
+{
+  "name": "front-end-specification",
+  "version": "1.0.0",
+  "description": "前端规范",
+  "scripts": {
+    "dev": "vuepress dev doc",
+    "build": "vuepress build doc"
+  },
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/woai3c/front-end-specification.git"
+  },
+  "bugs": {
+      "url": "https://github.com/woai3c/front-end-specification/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/woai3c/front-end-specification#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.0"
+  }
+}
