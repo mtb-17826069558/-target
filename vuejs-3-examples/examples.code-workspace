@@ -1,0 +1,46 @@
+{
+	"folders": [
+		{
+			"name": "00-tree-shaking",
+			"path": "00-tree-shaking"
+		},
+		{
+			"name": "01-composition-apis",
+			"path": "01-composition-apis"
+		},
+		{
+			"name": "02-webpack-based",
+			"path": "02-webpack-based"
+		},
+		{
+			"name": "03-vue-cli-based",
+			"path": "03-vue-cli-based"
+		},
+		{
+			"name": "04-vite-based",
+			"path": "04-vite-based"
+		},
+		{
+			"name": "05-official-libraries",
+			"path": "05-official-libraries"
+		},
+		{
+			"name": "06-community-libraries",
+			"path": "06-community-libraries"
+		},
+		{
+			"name": "07-encore",
+			"path": "07-encore"
+		},
+		{
+			"name": "99-root",
+			"path": "."
+		}
+	],
+	"settings": {
+    "files.exclude": {
+      "node_modules": true,
+      "package-lock.json": true
+    }
+  }
+}

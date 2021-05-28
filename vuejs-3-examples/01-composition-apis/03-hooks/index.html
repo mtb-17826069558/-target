@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hooks - Vue.js 3.0</title>
+  <style>
+    body { max-width: 500px; margin: 50px auto; }
+    [v-cloak] { display: none; }
+  </style>
+</head>
+
+<body>
+  <section id="app" v-cloak>
+    <h3>Posts</h3>
+    <ul>
+      <li v-for="item in posts" :key="item.id">{{ item.title }}</li>
+    </ul>
+    <button @click="toggle">{{ open ? 'hide' : 'show' }}</button>
+    <div v-show="open">
+      <p>width: <span>{{ width }}</span></p>
+      <p>height: <span>{{ height }}</span></p>
+      <p>hash: <span>{{ hash }}</span></p>
+    </div>
+  </section>
+  <script type="module" src="app.js"></script>
+</body>
+
+</html>

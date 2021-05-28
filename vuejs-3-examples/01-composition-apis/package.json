@@ -1,0 +1,12 @@
+{
+  "name": "01-composition-apis",
+  "version": "0.1.0",
+  "author": "zce <w@zce.me> (https://zce.me)",
+  "license": "MIT",
+  "scripts": {
+    "dev": "browser-sync . --directory --watch --no-notify"
+  },
+  "devDependencies": {
+    "browser-sync": "latest"
+  }
+}
